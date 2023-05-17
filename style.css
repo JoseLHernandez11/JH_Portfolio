@@ -301,6 +301,8 @@ body{
     border: 10px solid black;
 }
 
+/* skill container section */
+
 .skills-card:nth-child(1) .skill-level{
     background: #ff4f4f28;
     background-color: #ff4f4f;
@@ -324,6 +326,19 @@ body{
     background-color: #ff4ff4;
     color: #4fdfff;
 }
+.skills-card:nth-child(5) .skill-level{
+    background: #4fdfff28;
+    background-color: #ff4ff4;
+    color: #4fdfff;
+}
+.skills-card:nth-child(6) .skill-level{
+    background: #4fdfff28;
+    background-color: #ff4ff4;
+    color: #4fdfff;
+}
+
+
+/* Contact section */
 
 .contact-section{
     position: relative;
@@ -346,4 +361,25 @@ body{
     text-transform: capitalize;
     color: #fff;
     padding: 5px 10px;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+#msg{
+    height: 280px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+.form-submit-btn{
+    background: #ff4f4f;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
 }
