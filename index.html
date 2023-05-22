@@ -12,15 +12,16 @@
     <!-- Navigation bar of website-->
     <nav class="navbar">
         <ul class="link-group">
-            <li class="link active"><a href="#Home">Home</a></li>
-            <li class="link"><a href="">Projects</a></li>
+            <li class="link"><a href="#Home">Home</a></li>
+            <li class="link"><a href="Projects">Projects</a></li>
             <li class="link"><a href="#AboutMe">About me</a></li>
-            <li class="link"><a href="#Hobbies">Hobbies</a></li>
+            <li class="link"><a href="Contact">Contact</a></li>
+            <!-- <li class="link"><a href="#Hobbies">Hobbies</a></li>-->
         </ul>
     </nav>
 
     <!-- Le Home Section -->
-    <section class="home-section">
+    <section class="home-section active">
         <h1 class="page-heading"> Welcome to my portfolio, <br> I'm Jose Hernandez </h1>
         <img class="profile-img" src="images/ProPic1.JPG" alt="">
     </section>
@@ -90,14 +91,14 @@
     </section>
 
     <!--About Me Section-->
-    <section class="about-section active">
+    <section class="about-section">
 
         <div class="about">
             <div class="about-img-container">
                 <img src="images/ProPic1.JPG" class="about-img" alt="">
                 <button class="download-cv-btn"> Download CV </button>
             </div>
-            <p class="about-info"> Hello, I am Jose Hernandez, I am a first generation Hispanic graduate from California State University Fullerton. My major of study was computer science in which I achieved a bachelor's degree for. My interests include cybersecurity, software development, and cloud computing.</p>
+            <p class="about-info"> Hello, I am Jose Hernandez, I am a first generation Hispanic graduate from California State University Fullerton. My major of study was computer science in which I achieved a bachelor's degree for. My interests include software development, cybersecurity, and cloud computing. Currently I am employed by EVO Payments located in Anaheim, California as a technical support associate.</p>
         </div>
 
         <div class="skills-section">
@@ -159,6 +160,10 @@
             <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
             <button type="submit" class="form-submit-btn">Contact</button>
         </form>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212105.7884065316!2d-118.01030237182431!3d33.834166179104095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd6f98055e867%3A0x1ab89ab9a2bb160!2sAnaheim%2C%20CA!5e0!3m2!1sen!2sus!4v1684771522027!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
 
     <script src="app.js"></script>

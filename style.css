@@ -49,7 +49,8 @@ body{
 
 .home-section.active,
 .project-section.active,
-.about-section.active{
+.about-section.active,
+.contact-section.active{
     position: relative;
     opacity: 1;
     z-index: 8;
@@ -143,6 +144,7 @@ body{
     text-transform: capitalize;
     text-align: center;
     font-weight: 300;
+    color: turquoise;
 }
 
 .project-info{
@@ -150,6 +152,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    color: turquoise;
 }
 
 .project-btn-grp{
@@ -306,42 +309,49 @@ body{
 .skills-card:nth-child(1) .skill-level{
     background: #ff4f4f28;
     background-color: #ff4f4f;
-    color: #4fdfff;
+    color: #000000;
+    opacity: 0.85;
 }
 
 .skills-card:nth-child(2) .skill-level{
     background: #4fdfff28;
-    background-color: #ff4ff4;
-    color: #4fdfff;
+    background-color: #3C7DFF;
+    color: #000000;
+    opacity: 0.85;
 }
 
 .skills-card:nth-child(3) .skill-level{
     background: #4fdfff28;
-    background-color: #ff4ff4;
-    color: #4fdfff;
+    background-color: #f9f455;
+    color: #000000;
+    opacity: 0.85;
 }
 
 .skills-card:nth-child(4) .skill-level{
     background: #4fdfff28;
-    background-color: #ff4ff4;
-    color: #4fdfff;
+    background-color: #9d47d5;
+    color: #000000;
+    opacity: 0.85;
 }
 .skills-card:nth-child(5) .skill-level{
     background: #4fdfff28;
-    background-color: #ff4ff4;
-    color: #4fdfff;
+    background-color: #52d60c;
+    color: #000000;
+    opacity: 0.85;
 }
 .skills-card:nth-child(6) .skill-level{
     background: #4fdfff28;
-    background-color: #ff4ff4;
-    color: #4fdfff;
+    background-color: #f5a116;
+    color: #000000;
+    opacity: 0.85;
 }
 
 
 /* Contact section */
 
 .contact-section{
-    position: relative;
+    position: fixed;
+    opacity: 0;
     top: 0;
     transition: 1s;
     padding: 100px 150px;
@@ -349,6 +359,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-form input, .contact-form textarea{
@@ -382,4 +394,19 @@ body{
     margin: auto;
     border: none;
     cursor: pointer;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
